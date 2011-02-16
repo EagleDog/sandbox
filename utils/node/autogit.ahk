@@ -158,7 +158,7 @@ Sleep, 1800 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 day := A_WDay ;text_text_text[1] ; text_text_text[rand_num]
-loop 8 {  ;:= text_text_text[1] ; text_text_text[rand_num]
+loop 12 {  ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_txt_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
@@ -208,7 +208,6 @@ Sleep, 500  ;:= text_text_text[1] ; text_text_text[rand_num]
 SetTitleMatchMode, 2     ; test text test test test test test
 ; test text test test test text test test test test test test
 ;Pause On ; test test test test test test test test test test
-
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test

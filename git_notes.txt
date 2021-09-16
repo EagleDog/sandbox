@@ -15,9 +15,9 @@ git status
 
 git commit -m "update readme" //use present tense verbs
 
-git remote
+git remote                    //list remote names
 
-git branch -m master main  //change branch name to main
+git branch -m master main     //change branch name to main
 
 git remote add <name> <url>
 

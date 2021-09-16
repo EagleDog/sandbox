@@ -1,3 +1,48 @@
-test test test
-test test test
-test test test
+;
+;    test test test
+;    test test test
+;
+;
+;test test test
+; test test test
+;  test test test
+;   test test test
+;    test test test
+;     test test test
+;      test test test
+;
+;
+; test test test test test test test test test
+test test test test test test test test test
+test test test test test test test test test
+test test test test test test test test test
+test test test test test test test test test
+
+git commit -m "   " 
+git push og 
+
+git commit -m "   " 
+git push og 
+
+
+"Hello" 
+Hello test
+Hello test
+Hello  
+test 
+itudi
+
+Hello text1 
+test 
+itudi
+Hello text1text2text3 
+test 
+itudi
+text1text2text1text3
+text1text5 text1text5
+tester testitudi
+
+testitudium testitudium
+"testabilifor testingtest" 
+git push og 
+

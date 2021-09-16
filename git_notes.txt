@@ -1,0 +1,30 @@
+.................
+    GIT NOTES
+.................
+
+
+COMMANDS:
+
+git init
+git status
+git reflog
+
+git add *      // add everything
+git add -u     // recognize deleted files
+git status
+
+git commit -m "update readme" //use present tense verbs
+
+git remote
+
+git branch -m master main  //change branch name to main
+
+git remote add <name> <url>
+
+git push <name>
+
+
+git remote rm <name>  //removes remote
+
+
+

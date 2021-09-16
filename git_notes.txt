@@ -3,28 +3,43 @@
 .................
 
 
-COMMANDS:
+____________COMMANDS:_________________
 
 git init
 git status
 git reflog
 
-git add *      // add everything
-git add -u     // recognize deleted files
+git add *                      // add everything
+git add -u                     // recognize deleted files
 git status
 
-git commit -m "update readme" //use present tense verbs
+git commit -m "update readme"  //use present tense verbs
 
-git remote                    //list remote names
+git remote                     //list remote names
 
-git branch -m master main     //change branch name to main
+git branch -m master main      //change branch name to main
 
 git remote add <name> <url>
 
 git push <name>
 
 
-git remote rm <name>  //removes remote
+git remote rm <name>           //remove remote
+
+
+___________COMMAND LINE / BASH :______________
+
+touch file.txt                 //create file
+echo "text text" >> file.txt   //add text to file
+
+mv file.txt ../folder1         //move file
+mv file.txt file2.txt          //rename file
+
+
+
+
+
+...
 
 
 

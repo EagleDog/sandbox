@@ -76,7 +76,7 @@ Send, echo "test test test text text text" >> test.txt {Enter}
 Sleep, 3000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git status {Enter} ; text_text_text[rand_num]
-Sleep, 3000 := text_text_text[1] ; text_text_text[rand_num]
+Sleep, 3000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git add * {Enter} ; text_text_text[rand_num]
 Sleep, 4000 ; text_text_text[rand_num] text_text_text

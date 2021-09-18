@@ -88,15 +88,15 @@ Send, git status {Enter} ; text_text_text[rand_num]
 Sleep, 3000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git commit -m "%texty_texty%" {Enter}  ; text_text
-Sleep, 5000  ; := text_text_text[1] ; text_text test test
+Sleep, 3000  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git push og {Enter} ;:= text_text_text[1] ; text_text
-Sleep, 1000  ;texty_text := text_text_text[1] ; text_text
+Sleep, 5000  ;texty_text := text_text_text[1] ; text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git status {Enter} ; text_text_text[rand_num]
-Sleep, 3000 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 1000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
-;texty_text := text_text_text[1] ; text_text_text[rand_num]
+ExitApp ;texty := text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; test test test; test test test; test test test; test test test

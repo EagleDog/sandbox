@@ -5,6 +5,9 @@
 
 ____________COMMANDS:_________________
 
+git config --global user.name "First Last"
+git config --global user.email "me@me.me"
+
 git init
 git status
 git reflog
@@ -13,19 +16,21 @@ git add *                      // add everything
 git add -u                     // recognize deleted files
 git status
 
-git commit -m "update readme"  //use present tense verbs
+git commit -m "update readme"  // use present tense verbs
 
-git remote                     //list remote names
+git remote                     // list remote names
 
-git branch -m master main      //change branch name to main
+git branch -m master main      // change branch name to main
 
 git remote add <name> <url>
 
 git push <name>
 
+git remote rm <name>           // remove remote
 
-git remote rm <name>           //remove remote
 
+git config --global init.defaultBranch main
+		// change default branch name to main
 
 ___________COMMAND LINE / BASH :______________
 

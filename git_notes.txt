@@ -5,6 +5,8 @@
 
 ____________COMMANDS:_________________
 
+eval "$(ssh-agent -s)"        // run ssh-agent in background
+
 git config --global user.name "First Last"
 git config --global user.email "me@me.me"
 
@@ -28,9 +30,13 @@ git push <name>
 
 git remote rm <name>           // remove remote
 
+git remote -v                  // remote details
+
+git remote set-url og git@github.com:username/reponame.git
+        // switch remote from https to ssh
 
 git config --global init.defaultBranch main
-		// change default branch name to main
+    		// change default branch name to main
 
 ___________COMMAND LINE / BASH :______________
 

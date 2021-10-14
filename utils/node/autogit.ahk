@@ -74,7 +74,7 @@ Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git pull {Enter} ; text_text[1] ; text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
-Sleep, 1000 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 1800 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, echo "test test test text text text" >> test.txt {Enter}
 Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]

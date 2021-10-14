@@ -20,33 +20,38 @@
 ; test text test test test text
 ; test text test test test text
 ; test text test test test text
-; test text test test test text
-; test text test test test text
-; test text test test test text
-; test text test test test text
-Pause On ; test test test test
-; test test test test test test test test test
-; test test test test test test test test test
-; test test test test test test test test test
-; test test test test test test test test test
-text1 := "test"     ; test test test test
-text2 := "itudium"  ; test test test test
-text3 := "ingtest"  ; test test test test
-text4 := "ed"       ; test test test test
-text5 := "er"       ; test test test test
-text6 := "abilifor" ; test test test test
-text7 := "erosity"  ; test test test test
-text8 := "texttesttext"  ; test test test test
-; test test test test test test test test test
-text_text_text := [text1, text2, text3, text4, text5, text6, text7, text8]
+; test text test test test text test test test test
+; test text test test test text test test test test
+; test text test test test text test test test test
+; test text test test test text test test test test
+Pause On ; test test test test test test test test
+; test test test test test test test test test test
+; test test test test test test test test test test
+; test test test test test test test test test test
+; test test test test test test test test test test
+t1 := "test"     ; test test test test test test test
+t2 := "itudium"  ; test test test test test test test
+t3 := "ingtest"  ; test test test test test test test
+t4 := "ed"       ; test test test test test test test
+t5 := "er"       ; test test test test test test test
+t6 := "abilifor" ; test test test test test test test
+t7 := "erosity"  ; test test test test test test test
+t8 := "texttesttext"  ; test test test test test test
+t9 := "ify textificus"  ; test test test test test test
+t10 := "alibus telliform"  ; test test test test test test
+t11 := "ocerous textigarchy"  ; test test test test test
+t12 := "ibulant testerimonious"  ; test test test test test
+t13 := "inner for topmost attributimonius test"  ; test test
+; test test test test test test test test test test test test
+ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13]
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 rand_num := 1  ; text_text_text[rand_num] ; text_text_text[rand_num]
-Random, rand_num, 2, 8  ; text_text_text[rand_num] ; text_text_text
+Random, rand_num, 2, 13  ; text_text_text[rand_num] ; text_text_text
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
-texty_text := text_text_text[1] text_text_text[rand_num]
+texty_text := ttt[1] ttt[rand_num] ; test test test test test test
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 Random, rand_num, 2, 5 ; text_text_text[rand_num] ; text_text_text
-texty_texty := texty_text " " text_text_text[1] text_text_text[rand_num]
+texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; Randomize() {
 ; 	global rand_num

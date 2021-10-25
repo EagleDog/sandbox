@@ -38,6 +38,17 @@ git remote set-url og git@github.com:UserName/repository.git
 git config --global init.defaultBranch main
     		// change default branch name to main
 
+git grep boom                  // trace dependencies
+
+git checkout -b name_of_branch   // create new branch
+
+git checkout name_of_branch      // switch branches
+
+git branch                       // list local branches
+
+git remote show og               // list all branches
+
+
 ___________COMMAND LINE / BASH :______________
 
 touch file.txt                 //create file

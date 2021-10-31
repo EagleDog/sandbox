@@ -49,6 +49,12 @@ git branch                       // list local branches
 git remote show og               // list all branches
 
 
+git reset --soft HEAD~1
+  // Delete the most recent commit, keeping the work you've done
+
+git reset --hard HEAD~1
+  // Delete the most recent commit, destroying the work you've done
+
 ___________COMMAND LINE / BASH :______________
 
 touch file.txt                 //create file

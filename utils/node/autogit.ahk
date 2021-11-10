@@ -28,6 +28,7 @@ Pause On ; test test test test test test test test
 ; test test test test test test test test test test
 ; test test test test test test test test test test
 ; test test test test test test test test test test
+loop, 7 { ; test test test test test test
 ; test test test test test test test test test test
 t1 := "test"     ; test test test test test test test
 t2 := "itudium"  ; test test test test test test test
@@ -104,6 +105,8 @@ Sleep, 2000  ;texty_text := text_text_text[1] ; text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git status {Enter} ; text_text_text[rand_num]
 Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+ } ;texty_text := text_text_text[1] ; text_text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ExitApp ;texty := text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]

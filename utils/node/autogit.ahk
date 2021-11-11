@@ -28,7 +28,7 @@ Pause On ; test test test test test test test test
 ; test test test test test test test test test test
 ; test test test test test test test test test test
 ; test test test test test test test test test test
-loop, 7 { ; test test test test test test
+loop, 2 { ; test test test test test test
 ; test test test test test test test test test test
 t1 := "test"     ; test test test test test test test
 t2 := "itudium"  ; test test test test test test test

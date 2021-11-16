@@ -23,35 +23,42 @@
 ; test text test test test text test test test test
 ; test text test test test text test test test test
 ; test text test test test text test test test test
-; test text test test test text test test test test
-Pause On ; test test test test test test test test
-; test test test test test test test test test test
-; test test test test test test test test test test
-; test test test test test test test test test test
-loop, 2 { ; test test test test test test
-; test test test test test test test test test test
-t1 := "test"     ; test test test test test test test
-t2 := "itudium"  ; test test test test test test test
-t3 := "ingtest"  ; test test test test test test test
-t4 := "ed"       ; test test test test test test test
-t5 := "er"       ; test test test test test test test
-t6 := "abilifor" ; test test test test test test test
-t7 := "erosity"  ; test test test test test test test
-t8 := "texttesttext"  ; test test test test test test
-t9 := "ify textificus"  ; test test test test test test
-t10 := "alibus telliform"  ; test test test test test test
-t11 := "ocerous textigarchy"  ; test test test test test
-t12 := "ibulant testerimonious"  ; test test test test test
-t13 := "inner for topmost attributimonius test"  ; test test
+; test text test test test text test test test test test test
+Pause On ; test test test test test test test test test test
 ; test test test test test test test test test test test test
-ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13]
+; test test test test test test test test test test test test
+; test test test test test test test test test test test test
+loop, 4 { ; test test test test test test test test test test
+; test test test test test test test test test test test test
+t1 := "test"     ; test test test test test test test test test
+t2 := "alimonious conflagrations of proximate testificus" ; test
+t3 := "ingtestangtestung"  ; test test test test test test test
+t4 := "ed"       ; test test test test test test test test test
+t5 := "erasticate" ;  test   test test test test test test test
+t6 := "abilifor" ; test test test test test test test test test
+t7 := "erosity"  ; test test test test test test test test test
+t8 := "texttesttext"  ; test test test test test test test test
+t9 := "ify textificus"  ; test test test test test test test
+t10 := "alibus telliform"  ; test test test test test test test
+t11 := "ocerous textigarchy"  ; test test test test test test
+t12 := "ibulant testerimonious"  ; test test test test test test
+t13 := "afility affinity aximus proximus"  ; test test
+t14 := " of the inner resolve to the utmost testability"  ; test test
+t15 := " extreme limits of possible text monotiny"  ; test test
+t16 := " after beginning before ending with basics"  ; test test
+t17 := " psuedo antimonious lexicography"  ; test test
+t18 := " amorphous analogous textforth"  ; test test
+t19 := "ifications of outward deflegratinousness"  ; test test
+t20 := "ify obsolete testing parameters"  ; test test
+; test test test test test test test test test test test test
+ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20]
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 rand_num := 1  ; text_text_text[rand_num] ; text_text_text[rand_num]
-Random, rand_num, 2, 13  ; text_text_text[rand_num] ; text_text_text
+Random, rand_num, 2, 20  ; text_text_text[rand_num] ; text_text_text
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 texty_text := ttt[1] ttt[rand_num] ; test test test test test test
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
-Random, rand_num, 2, 5 ; text_text_text[rand_num] ; text_text_text
+Random, rand_num, 2, 20 ; text_text_text[rand_num] ; text_text_text
 texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; Randomize() {

@@ -28,10 +28,10 @@ Pause On ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
-loop, 4 { ; test test test test test test test test test test
+loop, 3 { ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 t1 := "test"     ; test test test test test test test test test
-t2 := "alimonious conflagrations of proximate testificus" ; test
+t2 := "imonious conflagrations of proximate testificus" ; test
 t3 := "ingtestangtestung"  ; test test test test test test test
 t4 := "ed"       ; test test test test test test test test test
 t5 := "erasticate" ;  test   test test test test test test test

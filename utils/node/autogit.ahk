@@ -28,13 +28,13 @@ Pause On ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
-loop, 4 { ; test test test test test test test test test test
+loop, 1 { ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 t1 := "test"     ; test test test test test test test test test
 t2 := "imonious conflagrations of proximate testificus" ; test
 t3 := "ingtestangtestung"  ; test test test test test test test
 t4 := "ed"       ; test test test test test test test test test
-t5 := "erasticate" ;  test   test test test test test test test
+t5 := "erasor aminus" ;  test   test test test test test test
 t6 := "abilifor" ; test test test test test test test test test
 t7 := "erosity"  ; test test test test test test test test test
 t8 := "texttesttext"  ; test test test test test test test test
@@ -51,7 +51,8 @@ t18 := " amorphous analogous textforth"  ; test test
 t19 := "ifications of outward deflegratinousness"  ; test test
 t20 := "ify obsolete testing parameters"  ; test test
 ; test test test test test test test test test test test test
-ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20]
+ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14
+       ,t15, t16, t17, t18, t19, t20]
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 rand_num := 1  ; text_text_text[rand_num] ; text_text_text[rand_num]
 Random, rand_num, 2, 20  ; text_text_text[rand_num] ; text_text_text

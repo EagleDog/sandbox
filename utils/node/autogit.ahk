@@ -28,7 +28,7 @@ Pause On ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
-loop, 1 { ; test test test test test test test test test test
+loop, 4 { ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 t1 := "test"     ; test test test test test test test test test
 t2 := "imonious conflagrations of proximate testificus" ; test

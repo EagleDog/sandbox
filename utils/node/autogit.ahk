@@ -28,7 +28,7 @@ Pause On ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
-loop, 4 { ; test test test test test test test test test test
+;loop, 4 { ; test test test test test test test test test test
 ; test test test test test test test test test test test test
 t1 := "test"     ; test test test test test test test test test
 t2 := "imonious conflagrations of proximate testificus" ; test
@@ -64,14 +64,6 @@ ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14
        , t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26
        , t27, t28, t29, t30] ; test test test test test test test
 ; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
-rand_num := 1  ; text_text_text[rand_num] ; text_text_text[rand_num]
-Random, rand_num, 2, 20  ; text_text_text[rand_num] ; text_text_text
-; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
-texty_text := ttt[1] ttt[rand_num] ; test test test test test test
-; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
-Random, rand_num, 2, 20 ; text_text_text[rand_num] ; text_text_text
-texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
-; 	texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; Randomize() {
 ; 	global rand_num
 ; 	Random, rand_num, 1, 5
@@ -100,6 +92,23 @@ Send, git pull {Enter} ; text_text[1] ; text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Sleep, 1800 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+loop, 4 {  ;:= text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
+rand_num := 1  ; text_text_text[rand_num] ; text_text_text[rand_num]
+Random, rand_num, 2, 20  ; text_text_text[rand_num] ; text_text_text
+;   texty_text := text_text_text[1] ; text_text_text[rand_num]
+texty_text := ttt[1] ttt[rand_num] ; test test test test test test
+;   texty_text := text_text_text[1] ; text_text_text[rand_num]
+Random, rand_num, 2, 20 ; text_text_text[rand_num] ; text_text_text
+texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
+;   texty_text := text_text_text[1] ; text_text_text[rand_num]
+Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 Send, echo "test test test text text text" >> test.txt {Enter}
 Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]

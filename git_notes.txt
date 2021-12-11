@@ -38,6 +38,8 @@ git remote set-url og git@github.com:UserName/repository.git
 git config --global init.defaultBranch main
     		// change default branch name to main
 
+git push --set-upstream <remote> <branch>        // set upstream branch
+
 git grep boom                  // trace dependencies
 
 git checkout -b name_of_branch   // create new branch

@@ -150,3 +150,4 @@ ExitApp ;texty := text_text[1] ; text_text_text[rand_num]
 ; test test test; test test test; test test test; test test test
 ; test test test; test test test; test test test; test test test
 ; test test test; test test test; test test test; test test test
+; test test test; test test test; test test test; test test test

@@ -127,12 +127,12 @@ Sleep, 1000 ; text_text_text[rand_num] text_text_text
 Send, git commit -m "%texty_texty%" {Enter}  ; text_text
 Sleep, 1000  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
-Send, git push og {Enter} ;:= text_text_text[1] ; text_text
-Sleep, 2000  ;texty_text := text_text_text[1] ; text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
  } ;texty_text := text_text_text[1] ; text_text_text testing
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
+Send, git push og {Enter} ;:= text_text_text[1] ; text_text
+Sleep, 2000  ;texty_text := text_text_text[1] ; text_text
 Send, git status {Enter} ; text_text_text[rand_num] tested
 Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ExitApp ;texty := text_text[1] ; text_text_text[rand_num]

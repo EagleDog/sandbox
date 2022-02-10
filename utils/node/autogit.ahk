@@ -139,7 +139,7 @@ ExitApp ;texty := text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; test test test; test test test; test test test; test test test
-^+z::Pause ; test test test; test test test; test test test
+^+p::Pause ; test test test; test test test; test test test
 ^+x::ExitApp ; st test test; test test test; test test test
 ; test test test; test test test; test test test; test test test
 ; test test test; test test test; test test test; test test test

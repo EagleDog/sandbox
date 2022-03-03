@@ -57,7 +57,7 @@ git reset --soft HEAD~1
 git reset --hard HEAD~1
   // Delete the most recent commit, destroying the work you've done
 
-___________COMMAND LINE / BASH :______________
+___________ COMMAND LINE / BASH : ______________
 
 touch file.txt                 //create file
 echo "text text" >> file.txt   //add text to file
@@ -65,9 +65,12 @@ echo "text text" >> file.txt   //add text to file
 mv file.txt ../folder1         //move file
 mv file.txt file2.txt          //rename file
 
+cd                             //change directory
+cd ..                          //go up one folder
+cd ../..                       //go up two folders
 
-
-
+dir                            //directory listing
+ls                             //directory listing
 
 ...
 

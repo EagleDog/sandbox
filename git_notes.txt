@@ -12,11 +12,17 @@ git config --global user.email "me@me.me"
 
 git init
 git status
-git reflog
+git reflog                     // list all commits
 
-git add *                      // add everything
+git add *                      // add all
+git add .                      // add all (including files
+                                        // starting with a . )
 git add -u                     // recognize deleted files
+git add -A                     // add all and recognize deleted files
+
 git status
+
+// git add -A is equal to git add . + git add -u // --Sheharyar on github
 
 git commit -m "update readme"  // use present tense verbs
 
@@ -40,7 +46,7 @@ git config --global init.defaultBranch main
 
 git push --set-upstream <remote> <branch>        // set upstream branch
 
-git grep boom                  // trace dependencies
+git grep boom                    // trace dependencies
 
 git checkout -b name_of_branch   // create new branch
 
@@ -59,19 +65,24 @@ git reset --hard HEAD~1
 
 ___________ COMMAND LINE / BASH : ______________
 
-touch file.txt                 //create file
-echo "text text" >> file.txt   //add text to file
+touch file.txt                  //create file
+echo "text text" >> file.txt    //add text to file
 
-mv file.txt ../folder1         //move file
-mv file.txt file2.txt          //rename file
+mv file.txt ../folder1        //move file
+mv file.txt file2.txt         //rename file
 
-cd                             //change directory
-cd ..                          //go up one folder
-cd ../..                       //go up two folders
+cd                            //change directory
+cd ..                         //go up one folder
+cd ../..                      //go up two folders
 
-dir                            //directory listing
-ls                             //directory listing
+dir                           //directory listing
+ls                            //directory listing
 
+ls -1   (number 1 "one)       // 1 listing per line
+ls -R                         //'Recursive' show subfolder contents
+ls -a                         //'all' show files starting with .
+ls -l   (letter "l")          //'long' show file permissions
+ls -f                         // unsorted
 ...
 
 

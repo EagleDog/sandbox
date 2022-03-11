@@ -12,13 +12,16 @@ git config --global user.email "me@me.me"
 
 git init
 git status
-git reflog                     // list all commits
+git reflog                // list all commits
+git log                   // list all commits verbose
 
-git add *                      // add all
-git add .                      // add all (including files
-                                        // starting with a . )
-git add -u                     // recognize deleted files
-git add -A                     // add all and recognize deleted files
+git pull                  // `git fetch` plus `git merge`
+
+git add *                 // add all
+git add .                 // add all (including files
+                                   // starting with a . )
+git add -u                // recognize deleted files
+git add -A                // add all and recognize deleted files
 
 git status
 

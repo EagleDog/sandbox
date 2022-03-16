@@ -88,6 +88,10 @@ ls -l   (letter "l")          //'long' show file permissions
 ls -f                         // unsorted
 ...
 
+pwd             // print working directory
+
+echo $PATH      // print $PATH (shows sytem executable folders)
+
 
 
 

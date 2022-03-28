@@ -127,6 +127,10 @@ ttt := [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14
 Bachata() {    ; test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
+Global ttt ; est test test test test test test test test test
+; test test test test test test test test test test test test
+; test test test test test test test test test test test test
+; test test test test test test test test test test test test
 Sleep, 500               ; test text test test test test test
 Send, cd ~/c/sandbox {Enter}  ; text test test test test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]

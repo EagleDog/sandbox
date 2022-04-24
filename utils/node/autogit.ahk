@@ -200,7 +200,9 @@ If WinExist("MINGW64") { ; test text test test test test test
 } Else {                 ; test text test test test test test
   Sleep, 200             ; test text test test test test test
   Run, "C:\Program Files\Git\git-bash.exe"   ; test text test
-  Sleep, 200             ; test text test test test test test
+  Sleep, 2000            ; test text test test test test test
+  WinActivate, MINGW64   ; test text test test test test test
+  WinWaitActive, MINGW64 ; test text test test test test test
 }    ; text test test test text test test test test test test
 Sleep, 500               ; test text test test test test test
 Send, cd ~/c/sandbox {Enter}  ; text test test test test test

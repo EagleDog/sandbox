@@ -130,9 +130,22 @@ Bachata() {    ; test test test test test test test test test
 Global ttt ; est test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
-; test test test test test test test test test test test test
+If WinExist("MINGW64") { ; test text test test test test test
+  Sleep, 200             ; test text test test test test test
+  WinActivate, MINGW64   ; test text test test test test test
+  WinWaitActive, MINGW64 ; test text test test test test test
+} Else {                 ; test text test test test test test
+  Sleep, 200             ; test text test test test test test
+  Run, "C:\Program Files\Git\git-bash.exe"   ; test text test
+  Sleep, 2000            ; test text test test test test test
+  WinActivate, MINGW64   ; test text test test test test test
+  WinWaitActive, MINGW64 ; test text test test test test test
+}    ; text test test test text test test test test test test
 Sleep, 500               ; test text test test test test test
 Send, cd ~/c/sandbox {Enter}  ; text test test test test test
+; test test test test test test test test test test test test
+; test test test test test test test test test test test test
+; test test test test test test test test test test test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Sleep, 300 ;:= text_text_text[1] ; text_text_text[rand_num]
@@ -144,7 +157,7 @@ Sleep, 1800 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
-loop, 14 {  ;:= text_text_text[1] ; text_text_text[rand_num]
+loop, 10 {  ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_txt_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
@@ -157,15 +170,15 @@ texty_text := ttt[1] ttt[rand_num] ; test test test test test test
 Random, rand_num, 2, 35 ; text_text_text[rand_num] ; text_text_text
 texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ;   texty_text := text_text_text[1] ; text_text_text[rand_num]
-Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 125 ;:= text_text_text[1] ; text_text_text[rand_num]
 Send, echo "test test test text text text" >> test.txt {Enter}
-Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 250 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git status {Enter} ; text_text_text[rand_num]
 ;Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git add . {Enter} ; text_text_text[rand_num]
-Sleep, 1000 ; text_text_text[rand_num] text_text_text
+Sleep, 250 ; text_text_text[rand_num] text_text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git add -u {Enter} ; text_text_text[rand_num]
 ;Sleep, 1000 ; text_text_text[rand_num] text_text_text
@@ -174,7 +187,7 @@ Sleep, 1000 ; text_text_text[rand_num] text_text_text
 ;Sleep, 1000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git commit -m "%texty_texty%" {Enter}  ; text_text
-Sleep, 1000  ; := text_text_text[1] ; text_text test test
+Sleep, 125  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
@@ -193,20 +206,8 @@ Sleep, 500  ;:= text_text_text[1] ; text_text_text[rand_num]
 ; test text test test test text test test test test test test
 SetTitleMatchMode, 2     ; test text test test test test test
 ; test text test test test text test test test test test test
-If WinExist("MINGW64") { ; test text test test test test test
-  Sleep, 200             ; test text test test test test test
-  WinActivate, MINGW64   ; test text test test test test test
-  WinWaitActive, MINGW64 ; test text test test test test test
-} Else {                 ; test text test test test test test
-  Sleep, 200             ; test text test test test test test
-  Run, "C:\Program Files\Git\git-bash.exe"   ; test text test
-  Sleep, 2000            ; test text test test test test test
-  WinActivate, MINGW64   ; test text test test test test test
-  WinWaitActive, MINGW64 ; test text test test test test test
-}    ; text test test test text test test test test test test
-Sleep, 500               ; test text test test test test test
-Send, cd ~/c/sandbox {Enter}  ; text test test test test test
 ;Pause On ; test test test test test test test test test test
+
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test
 ; test test test test test test test test test test test test

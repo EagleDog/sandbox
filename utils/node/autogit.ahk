@@ -225,7 +225,7 @@ Sleep, 86400000 ; 86,400 seconds in a day ; 1,440 minutes
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ; test test test; test test test; test test test; test test test
 ^+p::Pause ; test test test; test test test; test test test
-^+q::ExitApp ; st test test; test test test; test test test
+^+q::Exit ; st test test; test test test; test test test
 ; test test test; test test test; test test test; test test test
 ; test test test; test test test; test test test; test test test
 ; test test test; test test test; test test test; test test test

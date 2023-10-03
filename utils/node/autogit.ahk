@@ -194,6 +194,8 @@ Sleep, 125  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
  } ;texty_text := text_text_text[1] ; text_text_text testing
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
+Sleep, 125  ; := text_text_text[1] ; text_text test test
+;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git push og {Enter} ;:= text_text_text[1] ; text_text
 Sleep, 2000  ;texty_text := text_text_text[1] ; text_text
 Send, git status {Enter} ; text_text_text[rand_num] tested

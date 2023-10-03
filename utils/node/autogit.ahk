@@ -172,7 +172,7 @@ Random, rand_num, 2, 35 ; text_text_text[rand_num] ; text_text_text
 texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ;   texty_text := text_text_text[1] ; text_text_text[rand_num]
 Sleep, 125 ;:= text_text_text[1] ; text_text_text[rand_num]
-Send, echo "test test test text text text" >> test.txt {Enter}
+Send, echo "test" >> test.txt {Enter} ; text_text_text[rand]
 Sleep, 250 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git status {Enter} ; text_text_text[rand_num]
@@ -194,7 +194,7 @@ Sleep, 125  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
  } ;texty_text := text_text_text[1] ; text_text_text testing
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
-Sleep, 125  ; := text_text_text[1] ; text_text test test
+Sleep, 500  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git push og {Enter} ;:= text_text_text[1] ; text_text
 Sleep, 2000  ;texty_text := text_text_text[1] ; text_text

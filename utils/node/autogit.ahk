@@ -158,7 +158,7 @@ Sleep, 1800 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 day := A_WDay ;text_text_text[1] ; text_text_text[rand_num]
-loop 20 {  ;:= text_text_text[1] ; text_text_text[rand_num]
+loop 8 {  ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_txt_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
@@ -171,15 +171,15 @@ texty_text := ttt[1] ttt[rand_num] ; test test test test test test
 Random, rand_num, 2, 35 ; text_text_text[rand_num] ; text_text_text
 texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ;   texty_text := text_text_text[1] ; text_text_text[rand_num]
-Sleep, 125 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 225 ;:= text_text_text[1] ; text_text_text[rand_num]
 Send, echo "test" >> test.txt {Enter} ; text_text_text[rand]
-Sleep, 250 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 350 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git status {Enter} ; text_text_text[rand_num]
 ;Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git add . {Enter} ; text_text_text[rand_num]
-Sleep, 250 ; text_text_text[rand_num] text_text_text
+Sleep, 350 ; text_text_text[rand_num] text_text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git add -u {Enter} ; text_text_text[rand_num]
 ;Sleep, 1000 ; text_text_text[rand_num] text_text_text
@@ -188,7 +188,7 @@ Sleep, 250 ; text_text_text[rand_num] text_text_text
 ;Sleep, 1000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git commit -m "%texty_texty%" {Enter}  ; text_text
-Sleep, 125  ; := text_text_text[1] ; text_text test test
+Sleep, 325  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
@@ -197,9 +197,9 @@ Sleep, 125  ; := text_text_text[1] ; text_text test test
 Sleep, 500  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git push og {Enter} ;:= text_text_text[1] ; text_text
-Sleep, 2000  ;texty_text := text_text_text[1] ; text_text
+Sleep, 3000  ;texty_text := text_text_text[1] ; text_text
 Send, git status {Enter} ; text_text_text[rand_num] tested
-Sleep, 500  ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 800  ;:= text_text_text[1] ; text_text_text[rand_num]
 ;  ExitApp ;texty := text_text[1] ; text_text_text[rand_num]
 Send, cd ../chess/chessmonster {Enter} ; text_text_text[rand]
 ; texty_text := text_text_text[1] ; text_text_text[rand_num]

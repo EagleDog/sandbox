@@ -173,13 +173,13 @@ texty_texty := texty_text " " ttt[1] ttt[rand_num] ; test test test
 ;   texty_text := text_text_text[1] ; text_text_text[rand_num]
 Sleep, 225 ;:= text_text_text[1] ; text_text_text[rand_num]
 Send, echo "test" >> test.txt {Enter} ; text_text_text[rand]
-Sleep, 350 ;:= text_text_text[1] ; text_text_text[rand_num]
+Sleep, 450 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git status {Enter} ; text_text_text[rand_num]
 ;Sleep, 500 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git add . {Enter} ; text_text_text[rand_num]
-Sleep, 350 ; text_text_text[rand_num] text_text_text
+Sleep, 450 ; text_text_text[rand_num] text_text_text
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;Send, git add -u {Enter} ; text_text_text[rand_num]
 ;Sleep, 1000 ; text_text_text[rand_num] text_text_text
@@ -188,7 +188,7 @@ Sleep, 350 ; text_text_text[rand_num] text_text_text
 ;Sleep, 1000 ;:= text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 Send, git commit -m "%texty_texty%" {Enter}  ; text_text
-Sleep, 325  ; := text_text_text[1] ; text_text test test
+Sleep, 425  ; := text_text_text[1] ; text_text test test
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]
 ;texty_text := text_text_text[1] ; text_text_text[rand_num]

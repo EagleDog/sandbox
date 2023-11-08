@@ -56,3 +56,8 @@ test
 test
 test
 test
+On branch main
+Your branch is ahead of 'og/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean

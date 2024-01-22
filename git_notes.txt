@@ -5,6 +5,9 @@
 
 ____________COMMANDS:_________________
 
+git rebase -i 3c3c69c    // rebase specific commit
+git commit --amend --date="Thu, 07 Apr 2005 22:13:13 +0200"  // change commit date
+
 eval "$(ssh-agent -s)"        // run ssh-agent in background
 
 git config --global user.name "First Last"
